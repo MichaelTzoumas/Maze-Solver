@@ -80,12 +80,10 @@ public class MazeSolver {
 			return;
 		}
 		
-		}//while close	
+	}//while close	
 		
 	
-	
-	
-		}//main close	
+}//main close	
 	
 		public static boolean isValid(int y, int x) {
 			if(y<0 || y >= maze.length || x<0 || x>= maze[y].length) {	  	//Φτιάχνουμε μια μέθοδο isValid. και την καλούμε πρίν απο κάθε βήμα για να δούμε εαν με το επόμενο β΄λημα θα είμαστε εντος ορίων 
